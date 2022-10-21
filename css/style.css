@@ -581,26 +581,25 @@ body {
     cursor: pointer;
 }
 
-#border-radius
-.img-fluid {
+
+.img-bogoc {
     border-radius: 6px;
+    max-width: 100%;
+    height: auto;
 }
 
-#hover
-.hover {
+.hover_link {
+  position: relative;
+}
+
+.hover_chil {
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
 
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
+.hover_link:hover .hover_chil {
+  opacity: 0.75;
 }
