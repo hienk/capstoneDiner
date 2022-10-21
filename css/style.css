@@ -580,3 +580,7 @@ body {
     color: #ff6600;
     cursor: pointer;
 }
+
+img.img.img-fluid {
+    border-radius: 6px;
+}
