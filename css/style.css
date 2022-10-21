@@ -581,6 +581,26 @@ body {
     cursor: pointer;
 }
 
-img-fluid {
+#border-radius
+.img-fluid {
     border-radius: 6px;
+}
+
+#hover
+.hover {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
 }
